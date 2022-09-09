@@ -11,7 +11,7 @@ async function createResourceGroup() {
     const appServicePlan = await appservicesClient.appServicePlans.beginCreateOrUpdateAndWait(
       "TEST-GROUP-DEV",
       "TEST-PLAN-DEV",
-      { location: "westeurope", sku: {name: "F1"}, reserved: true}
+      { location: "westeurope", sku: {name: "F1"}, kind: "linux"}
     );
 
     core.info(`The resource group was created successfully.`);
