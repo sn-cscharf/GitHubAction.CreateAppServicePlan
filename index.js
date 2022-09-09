@@ -15,6 +15,7 @@ async function createResourceGroup() {
     );
 
     core.info(`The resource group was created successfully.`);
+    core.info(JSON.stringify(appServicePlan));
   }
   catch (error) {
     core.setFailed(error.message);
