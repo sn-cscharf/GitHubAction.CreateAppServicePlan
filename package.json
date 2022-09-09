@@ -1,0 +1,25 @@
+{
+  "name": "githubaction.createappserviceplan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sn-cscharf/GitHubAction.CreateAppServicePlan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sn-cscharf/GitHubAction.CreateAppServicePlan/issues"
+  },
+  "homepage": "https://github.com/sn-cscharf/GitHubAction.CreateAppServicePlan#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@azure/arm-appservice": "^13.0.0",
+    "@azure/identity": "^2.1.0"
+  }
+}
